@@ -33,7 +33,7 @@ public class AppTests {
     @Test
     public void simple() throws Exception {
 //        test comment
-
+/*asdfasdfasdf*/
         /*test comment2*/
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
